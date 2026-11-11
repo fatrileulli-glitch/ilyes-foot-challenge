@@ -1,0 +1,12 @@
+{
+  "name": "Ilyes Foot Challenge",
+  "short_name": "Foot Challenge",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3f7f4",
+  "theme_color": "#0b7a3b",
+  "lang": "fr",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

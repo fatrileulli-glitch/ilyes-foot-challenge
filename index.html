@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ilyes Foot Challenge</title>
+  <meta name="theme-color" content="#0b7a3b">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1 id="app-title">⚽ Ilyes Foot Challenge</h1>
+    <button class="icon-btn" id="btn-settings" aria-label="Réglages">⚙️</button>
+  </header>
+
+  <main id="view"></main>
+
+  <nav class="tabbar" aria-label="Navigation principale">
+    <button data-tab="accueil" class="active"><span>🏠</span>Accueil</button>
+    <button data-tab="carnet"><span>📒</span>Carnet</button>
+    <button data-tab="defis"><span>🎯</span>Défis</button>
+    <button data-tab="agenda"><span>📅</span>Agenda</button>
+    <button data-tab="quiz"><span>❓</span>Quiz</button>
+    <button data-tab="album"><span>📸</span>Album</button>
+  </nav>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card" id="modal-card"></div>
+  </div>
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="js/data-defis.js"></script>
+  <script src="js/data-quiz.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
